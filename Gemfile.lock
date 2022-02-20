@@ -6,28 +6,15 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    diff-lcs (1.4.4)
-    rake (12.3.3)
-    rspec (3.9.0)
-      rspec-core (~> 3.9.0)
-      rspec-expectations (~> 3.9.0)
-      rspec-mocks (~> 3.9.0)
-    rspec-core (3.9.2)
-      rspec-support (~> 3.9.3)
-    rspec-expectations (3.9.2)
-      diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.9.0)
-    rspec-mocks (3.9.1)
-      diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.9.0)
-    rspec-support (3.9.3)
+    minitest (5.15.0)
+    rake (13.0.6)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  rake (~> 12.0)
-  rspec (~> 3.0)
+  minitest (~> 5.15)
+  rake (~> 13.0)
   stack_loop!
 
 BUNDLED WITH

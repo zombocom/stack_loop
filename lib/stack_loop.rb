@@ -1,5 +1,4 @@
-require_relative "stack_loop/version"
+# frozen_string_literal: true
 
-class StackLoop
-  # Your code goes here...
-end
+require_relative "stack_loop/version"
+require_relative "stack_loop/core_ext"
